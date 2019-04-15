@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1555337160 source:c:\users\baptiste catillon\desktop\piscine\main.cpp
+	<iostream>
+	"arete.h"
+	"sommet.h"
+	<fstream>
+	<unordered_map>
+	"graphe.h"
+
+1555336578 c:\users\baptiste catillon\desktop\piscine\arete.h
+	<string>
+	<vector>
+	<unordered_map>
+	<unordered_set>
+
+1555336571 c:\users\baptiste catillon\desktop\piscine\sommet.h
+
+1555336946 c:\users\baptiste catillon\desktop\piscine\graphe.h
+	<string>
+	<vector>
+	<unordered_map>
+	"sommet.h"
+	"arete.h"
+
+1555336591 source:c:\users\baptiste catillon\desktop\piscine\sommet.cpp
+	"sommet.h"
+	<iostream>
+	<unordered_map>
+	<unordered_set>
+
+1555336659 source:c:\users\baptiste catillon\desktop\piscine\arete.cpp
+	"arete.h"
+	<iostream>
+	<unordered_map>
+	<unordered_set>
+
+1555337197 source:c:\users\baptiste catillon\desktop\piscine\graphe.cpp
+	<fstream>
+	<iostream>
+	<unordered_map>
+	<map>
+	<vector>
+	"graphe.h"
+	"sommet.h"
+	"arete.h"
+
+1555336571 c:\users\baptiste catillon\desktop\piscine\graphe.cpp
+	<fstream>
+	<iostream>
+	<unordered_map>
+	<map>
+	<vector>
+	"graphe.h"
+	"sommet.h"
+	"arete.h"
+
