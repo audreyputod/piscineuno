@@ -39,7 +39,7 @@ graphe::graphe(std::string graphe1){
         ifs>>id_arete; if(ifs.fail()) throw std::runtime_error("Probleme lecture arete sommet 1");
         ifs>>Init; if(ifs.fail()) throw std::runtime_error ("Probleme lecture arete sommet 1");
         ifs>>fin ; if(ifs.fail()) throw std::runtime_error ("Probleme lecture arete sommet 1");
-    }
+
 
 
    std::ifstream ifs2{"cubetown_weights_0.txt"};
@@ -49,14 +49,14 @@ graphe::graphe(std::string graphe1){
         throw std::runtime_error("Probleme lecture taille du graphe");
         float poids;
         ifs2>>taille; if(ifs2.fail()) throw std::runtime_error ("Probleme lecture arete sommet 1");
-        ifs2>>id_arete; if(ifs2.fail()) throw std::runtime_error ("Probleme lecture arete sommet 1");
+        //ifs2>>id_arete; if(ifs2.fail()) throw std::runtime_error ("Probleme lecture arete sommet 1");
         ifs2>>poids; if(ifs2.fail()) throw std::runtime_error ("Probleme lecture arete sommet 1");
          m_aretes.insert({id_arete,new Arete{id_arete,Init,fin,poids}});
         //ajouter chaque extrémité à la liste des voisins de l'autre (graphe non orienté)
         //(m_sommets.find(id))->second->ajouterVoisin((m_sommets.find(id_voisin))->second);
         //(m_sommets.find(id_voisin))->second->ajouterVoisin((m_sommets.find(id))->second);//remove si graphe orienté
 
-
+}
 }
 
 void graphe::afficher() const{
