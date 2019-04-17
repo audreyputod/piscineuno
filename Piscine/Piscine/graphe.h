@@ -14,9 +14,7 @@ class graphe
         graphe(std::string);
         ~graphe();
         void afficher() const;
-        void tableau();
 
-        //Arete * kruskal(Arete *(graphe),int ordre,int s, int n);
 
 
 

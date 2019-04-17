@@ -2,13 +2,28 @@
 #include <iostream>
 #include<unordered_map>
 #include<unordered_set>
+#include "svgfile.h"
 
 Sommet::Sommet(int id_sommet,double x,double y):m_id_sommet{id_sommet},m_x{x},m_y{y}
 {
 }
 
- void Sommet::afficherData() const{
-     std::cout<<"    "<<m_id_sommet<<" : "<<"(x,y)=("<<m_x<<","<<m_y<<")"<<std::endl;
+int Sommet::get_m_x()
+{
+    return m_x;
+}
+
+int Sommet::get_m_y()
+{
+    return m_y;
+}
+
+
+ void Sommet::afficherData(Svgfile &svg) const{
+     //std::cout<<"    "<<m_id_sommet<<" : "<<"(x,y)=("<<m_x<<","<<m_y<<")"<<std::endl;
+
+     svg.addCircle(m_x,m_y,20,5,"red");
+     svg.addText (m_x-5,m_y+5,m_id_sommet,"black");
  }
 Sommet::Sommet()
     {

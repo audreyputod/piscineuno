@@ -1,7 +1,5 @@
 #ifndef SOMMET_H_INCLUDED
 #define SOMMET_H_INCLUDED
-#include "svgfile.h"
-
 class Sommet
 {
 protected:
@@ -11,9 +9,7 @@ protected:
 public :
     Sommet (int,double,double);
     Sommet ();
-    void afficherData(Svgfile &svg) const;
-    int get_m_x();
-    int get_m_y();
+    void afficherData() const;
 
 };
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
+
+<line x1="100" y1="400" x2="400" y2="400" stroke="blue" />
+<circle cx="400" cy="400" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="395" y="405" fill="black" >7</text>
+<circle cx="100" cy="400" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="95" y="405" fill="black" >6</text>
+<circle cx="300" cy="300" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="295" y="305" fill="black" >5</text>
+<circle cx="200" cy="300" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="195" y="305" fill="black" >4</text>
+<circle cx="100" cy="100" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="95" y="105" fill="black" >0</text>
+<circle cx="400" cy="100" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="395" y="105" fill="black" >1</text>
+<circle cx="200" cy="200" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="195" y="205" fill="black" >2</text>
+<circle cx="300" cy="200" r="20" fill="red" stroke="red" stroke-width="5" />
+<text x="295" y="205" fill="black" >3</text>
+
+
+</svg>

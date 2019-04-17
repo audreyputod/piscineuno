@@ -11,5 +11,4 @@ int main()
 {
      graphe g{"graphe_2.txt"};
      g.afficher();
-     g.tableau();
 }
