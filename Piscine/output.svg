@@ -2,6 +2,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
 
 <line x1="100" y1="400" x2="400" y2="400" stroke="blue" />
+<line x1="300" y1="300" x2="400" y2="400" stroke="blue" />
+<line x1="100" y1="100" x2="200" y2="200" stroke="blue" />
+<line x1="200" y1="300" x2="300" y2="300" stroke="blue" />
+<line x1="100" y1="100" x2="100" y2="400" stroke="blue" />
+<line x1="200" y1="200" x2="200" y2="300" stroke="blue" />
+<line x1="300" y1="200" x2="300" y2="300" stroke="blue" />
+<line x1="200" y1="200" x2="300" y2="200" stroke="blue" />
+<line x1="400" y1="100" x2="400" y2="400" stroke="blue" />
+<line x1="100" y1="100" x2="400" y2="100" stroke="blue" />
+<line x1="400" y1="100" x2="300" y2="200" stroke="blue" />
+<line x1="200" y1="300" x2="100" y2="400" stroke="blue" />
 <circle cx="400" cy="400" r="20" fill="red" stroke="red" stroke-width="5" />
 <text x="395" y="405" fill="black" >7</text>
 <circle cx="100" cy="400" r="20" fill="red" stroke="red" stroke-width="5" />
