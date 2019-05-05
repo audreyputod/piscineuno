@@ -17,6 +17,10 @@ int Sommet::get_m_y()
 {
     return m_y;
 }
+int Sommet::get_m_id_sommet()
+{
+    return m_id_sommet;
+}
 
 
  void Sommet::afficherData(Svgfile &svg) const{

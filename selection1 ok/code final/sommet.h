@@ -14,6 +14,7 @@ public :
     void afficherData(Svgfile &svg) const;
     int get_m_x();
     int get_m_y();
+    int get_m_id_sommet();
 
 };
 
